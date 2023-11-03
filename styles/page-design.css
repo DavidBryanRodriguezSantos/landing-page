@@ -1,0 +1,111 @@
+@font-face{
+
+   font-family: 'Now Regular';
+   src: local('Now Regular'), url('../fonts/Now-Regular.woff') format('woff');
+
+}
+
+@font-face {
+
+    font-family: 'Now Bold';
+    src: local('Now Bold'), url('../fonts/Now-Bold.woff') format('woff');
+}
+
+
+
+body{
+	margin: 0px;
+
+}
+
+nav{
+	padding: 10px;
+	background-color: #CDF5F7;   
+
+}
+
+section{
+
+	display: flex;
+	justify-content: space-between;
+
+	padding: 50px 30px;
+}
+
+h1, p{
+	display: inline-block;
+}
+
+a.register-button{
+	
+    font-family: 'Now Bold';
+	font-size: 26px;
+
+	margin: 4px 0;	
+
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	
+	background-color: #FFDE59;
+	float: right;	
+}
+
+
+
+h1.web-title{
+
+    font-family: Montserrat, sans-serif;
+  	font-weight: bold;
+	font-size: 25px;
+
+	background-color: #ECFF6A;
+	border: 14px solid #ECFF6A;
+	border-radius: 25px;
+}
+
+
+p.web-description{
+
+	position: relative;
+	top: -20px;
+    font-family: Montserrat, sans-serif;
+	font-size: 20px;
+
+	background-color: #F3FFA1;
+	border: 14px solid #F3FFA1;
+	border-radius: 25px;
+	white-space: pre-line;
+
+}
+
+img.image{
+	
+	position: relative;
+	top: 15px;
+	
+	border-radius: 25px;
+
+
+}
+
+
+h1.social-title{
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+
+	background-color: #F3FFA1;
+	border: 13px solid #F3FFA1;
+	border-radius: 25px;
+}
+footer{
+
+	position: relative;
+	top: 19vh;
+
+	display: flex;
+	flex-direction: column;
+
+	padding-right: 25px;
+
+	float: right;
+}
