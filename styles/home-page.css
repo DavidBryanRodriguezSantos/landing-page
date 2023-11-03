@@ -29,7 +29,7 @@ section{
 	display: flex;
 	justify-content: space-between;
 
-	padding: 50px 30px;
+	padding: 50px 35px;
 }
 
 h1, p{
@@ -41,13 +41,20 @@ a.register-button{
     font-family: 'Now Bold';
 	font-size: 26px;
 
-	margin: 4px 0;	
+	margin: 10px 0;	
 
 	border: 12px solid #FFDE59;
 	border-radius: 25px;
 	
 	background-color: #FFDE59;
 	float: right;	
+
+	text-decoration: none;
+	color: black;
+}
+
+a.register-button:hover{
+	color: white;
 }
 
 
@@ -56,7 +63,7 @@ h1.web-title{
 
     font-family: Montserrat, sans-serif;
   	font-weight: bold;
-	font-size: 25px;
+	font-size: 27px;
 
 	background-color: #ECFF6A;
 	border: 14px solid #ECFF6A;
@@ -95,17 +102,17 @@ h1.social-title{
 
 	background-color: #F3FFA1;
 	border: 13px solid #F3FFA1;
-	border-radius: 25px;
+	border-radius: 30px;
 }
 footer{
 
 	position: relative;
-	top: 19vh;
+	top: 18vh;
 
 	display: flex;
 	flex-direction: column;
 
-	padding-right: 25px;
+	padding-right: 30px;
 
 	float: right;
 }

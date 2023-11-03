@@ -1,0 +1,58 @@
+
+
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+section{
+	text-align: center;
+	position: relative;
+	top: 20vh;
+
+}
+
+h1{
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 25px;
+	padding: 5px;
+}
+
+p{
+	width: 15vw;
+	height: 24px;
+
+	margin: 10px auto;	
+	padding: 3px;
+
+	font-size: 20px;
+	border: 1px solid darkgrey;
+	color: darkgrey;
+}
+
+a{	
+	position: relative;
+	top: 2vh;
+	font-size: 20px;
+	color: #5CE1E6;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #88D3FF;
+}
+
+
+h1.title{
+	background-color: #ECFF6A;
+	border: 12px solid #ECFF6A;
+	border-radius: 30px;
+}
+
+h1.submit-button{
+	background-color: #F5A940;
+	border: 12px solid #F5A940;
+	border-radius: 30px;
+}
+
