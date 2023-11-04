@@ -41,7 +41,7 @@ a.register-button{
     font-family: 'Now Bold';
 	font-size: 26px;
 
-	margin: 10px 0;	
+	margin: 10px 10px 10px 0;	
 
 	border: 12px solid #FFDE59;
 	border-radius: 25px;
@@ -57,6 +57,69 @@ a.register-button:hover{
 	color: white;
 }
 
+a.contact-button {
+	font-family: 'Now Bold';
+	font-size: 26px;
+	margin: 10px 10px 10px 0;
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	background-color: #FFDE59;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+
+	a.contact-button:hover {
+		color: white;
+	}
+
+a.translate-button {
+	font-family: 'Now Bold';
+	font-size: 26px;
+	margin: 10px 10px 10px 0;
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	background-color: #FFDE59;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+
+	a.translate-button:hover {
+		color: white;
+	}
+
+a.suscription-button {
+	font-family: 'Now Bold';
+	font-size: 26px;
+	margin: 10px 10px 10px 0;
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	background-color: #FFDE59;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+
+	a.suscription-button:hover {
+		color: white;
+	}
+
+a.learn-button {
+	font-family: 'Now Bold';
+	font-size: 26px;
+	margin: 10px 10px 10px 0;
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	background-color: #FFDE59;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+
+	a.learn-button:hover {
+		color: white;
+	}
 
 
 h1.web-title{
