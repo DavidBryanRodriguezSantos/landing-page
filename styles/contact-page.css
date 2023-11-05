@@ -1,0 +1,82 @@
+
+
+
+html{
+    font-family: Montserrat, sans-serif;
+}
+
+section{
+	text-align: center;
+	position: relative;
+	top: 20vh;
+
+}
+
+p{
+	font-size: 22px;
+}
+
+h1{
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.input{
+
+    font-size: 20px;
+	color: darkgrey;
+
+}
+
+p.input-text{
+	width: 17vw;
+	height: 24px;
+
+	margin: 10px auto;
+
+	padding: 3px;
+
+	border: 1px solid darkgrey;
+
+
+}
+
+p.input-description{
+	width: 17vw;
+	height: 85px;
+
+	word-break: break-all;
+
+	margin: 10px auto;
+
+	padding: 3px;
+	border: 1px solid darkgrey;
+
+
+}
+
+h1.title{
+	background-color: #ECFF6A;
+	border: 12px solid #ECFF6A;
+	border-radius: 30px;
+}
+
+button.submit-button{
+
+    font-weight: bold;
+
+	margin: 10px 0;
+	font-size: 25px;
+	padding: 5px;
+
+	background-color: #F5A940;
+	border: 12px solid #F5A940;
+	border-radius: 30px;
+}
+
+button.submit-button:hover{
+	color: white;
+}
+

@@ -5,20 +5,22 @@
 	<title>Tikra'q - Register</title>
 	<link rel="stylesheet" href="../styles/register-page.css">
 
+	<!-- Script to clear text when you click the input element-->
+	<script>
+
+		function clearText (element) {
+			element.textContent = " ";
+			element.removeAttribute("onclick");
+		}
+	</script>
+
 </head>
 
-<!-- Script to clear text when you click the input element-->
-<script>
 
-	function clearText (element) {
-		element.textContent = " ";
-		element.removeAttribute("oninput");
-	}
-</script>
 <body>
-
-	<img src = "../assets/logo.png" height="80" width= 90" /> 
-	
+	<a class = "logo" href = "../index.html">
+		<img src = "../assets/logo.png" height="80" width= "90"/> 
+	</a>
 	<section>
 		<h1 class = "title">Registro</h1>
 

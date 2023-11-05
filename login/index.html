@@ -7,20 +7,20 @@
 
 </head>
 
-<!-- Script to clear text when you click the input element-->
+	<!-- Script to clear text when you click the input element-->
+	<script>
 
-<script>
-
-	function clearText (element) {
-		element.textContent = " ";
-		element.removeAttribute("oninput");
-	}
-</script>
+		function clearText (element) {
+			element.textContent = " ";
+			element.removeAttribute("onclick");
+		}
+	</script>
 <body>
 
 
-	<img src = "../assets/logo.png" height="80" width= 90" /> 
-	
+	<a class = "logo" href = "../index.html">
+		<img src = "../assets/logo.png" height="80" width= "90" /> 
+	</a>
 	<section>
 		<h1 class = "title">Iniciar sesion</h1>
 		<div class = "input">

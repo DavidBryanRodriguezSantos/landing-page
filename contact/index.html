@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tikra'q - Register</title>
+	<link rel="stylesheet" href="../styles/contact-page.css">
+
+
+	<!-- Script to clear text when you click the input element-->
+	<script>
+
+		function setSubmitMessage(){
+			document.getElementById("submit-message").textContent = "Has enviado un mensaje a nuestro servicio de contacto.";
+		}
+
+		function clearText (element) {
+			element.textContent = " ";
+			element.removeAttribute("onclick");
+		}
+	</script>
+</head>
+
+<body>
+
+	<a href = "../index.html">
+		<img src = "../assets/logo.png" height="80" width= "90" /> 
+	</a>
+	<section>
+		<h1 class = "title">Contactanos</h1>
+		<p> Ingresa estos datos:</p>
+
+<!-- Credentials  -->
+
+		<div class = "input">
+			<p class = "input-text" contenteditable = true onclick="clearText(this)">Ingresa tu email</p>
+			<p class = "input-text" contenteditable = true onclick="clearText(this)">Ingresa tu nombre</p>
+			<p class = "input-text" contenteditable = true onclick="clearText(this)">Ingresa el titulo del contacto</p>
+			<p class = "input-description" contenteditable = true onclick="clearText(this)">Ingresa la descripción</p>
+		</div>
+
+		<button class = "submit-button" onclick= "setSubmitMessage()">Contactar</button>
+		<p id = "submit-message" class = "submit-message"></p>
+	</section>
+
+
+
+</body>
+</html>
