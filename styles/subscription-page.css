@@ -94,6 +94,7 @@ p.subscription-desc{
 .monthly-cost-option,
 .annualy-cost-option{
 
+
 	text-align: center;
 }
 
@@ -111,6 +112,8 @@ p.subscription-desc{
 
 .monthly-cost-option,
 .annualy-cost-option{
+
+	margin-top: 0;
 
 	background-color: #F5A940;
 
