@@ -43,6 +43,11 @@ a:hover{
 	color: #88D3FF;
 }
 
+a.logo{
+	position: relative;
+	top: 0;
+}
+
 
 h1.title{
 	background-color: #ECFF6A;
