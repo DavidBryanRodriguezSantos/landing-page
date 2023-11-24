@@ -1,6 +1,9 @@
 
 
-
+a{
+	color: black;
+	text-decoration: none;
+}
 
 body{
     font-family: Montserrat, sans-serif;
@@ -89,7 +92,9 @@ p.progress-data{
 p.learn-button{
 
 	font-size: 21px;
+
 	text-align: center;
+
 
 	background-color: #5CE1E6;
 	border: 10px solid #5CE1E6;
@@ -98,7 +103,20 @@ p.learn-button{
 	padding: 5px 0;
 
 	width: 14.5em;
+	cursor: pointer;
 }
+
+
+.lesson-section{
+	position: absolute;
+	left: 25em;
+	top: 19em;
+
+	overflow: scroll;
+
+	height: 34%;
+}
+
 
 .data-section{
 

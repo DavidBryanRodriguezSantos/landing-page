@@ -36,6 +36,26 @@ h1, p{
 	display: inline-block;
 }
 
+a.about-me-button{
+	
+    font-family: 'Now Bold';
+	font-size: 26px;
+
+	margin: 10px 10px 10px 0;	
+
+	border: 12px solid #FFDE59;
+	border-radius: 25px;
+	
+	background-color: #FFDE59;
+	float: right;	
+
+	text-decoration: none;
+	color: black;
+}
+
+a.register-button:hover{
+	color: white;
+}
 a.register-button{
 	
     font-family: 'Now Bold';
