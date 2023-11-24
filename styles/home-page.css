@@ -36,7 +36,7 @@ h1, p{
 	display: inline-block;
 }
 
-a.about-me-button{
+a.nav-block{
 	
     font-family: 'Now Bold';
 	font-size: 26px;
@@ -53,10 +53,11 @@ a.about-me-button{
 	color: black;
 }
 
-a.register-button:hover{
+a.nav-block:hover{
 	color: white;
 }
-a.register-button{
+
+p.nav-block{
 	
     font-family: 'Now Bold';
 	font-size: 26px;
@@ -71,76 +72,14 @@ a.register-button{
 
 	text-decoration: none;
 	color: black;
+
+	width: 10em;
+	text-align: center;
 }
 
-a.register-button:hover{
+p.nav-block:hover{
 	color: white;
 }
-
-a.contact-button {
-	font-family: 'Now Bold';
-	font-size: 26px;
-	margin: 10px 10px 10px 0;
-	border: 12px solid #FFDE59;
-	border-radius: 25px;
-	background-color: #FFDE59;
-	text-decoration: none;
-	color: black;
-	float: right;
-}
-
-	a.contact-button:hover {
-		color: white;
-	}
-
-a.translate-button {
-	font-family: 'Now Bold';
-	font-size: 26px;
-	margin: 10px 10px 10px 0;
-	border: 12px solid #FFDE59;
-	border-radius: 25px;
-	background-color: #FFDE59;
-	text-decoration: none;
-	color: black;
-	float: right;
-}
-
-	a.translate-button:hover {
-		color: white;
-	}
-
-a.suscription-button {
-	font-family: 'Now Bold';
-	font-size: 26px;
-	margin: 10px 10px 10px 0;
-	border: 12px solid #FFDE59;
-	border-radius: 25px;
-	background-color: #FFDE59;
-	text-decoration: none;
-	color: black;
-	float: right;
-}
-
-	a.suscription-button:hover {
-		color: white;
-	}
-
-a.learn-button {
-	font-family: 'Now Bold';
-	font-size: 26px;
-	margin: 10px 10px 10px 0;
-	border: 12px solid #FFDE59;
-	border-radius: 25px;
-	background-color: #FFDE59;
-	text-decoration: none;
-	color: black;
-	float: right;
-}
-
-	a.learn-button:hover {
-		color: white;
-	}
-
 
 h1.web-title{
 
@@ -170,10 +109,8 @@ p.web-description{
 
 img.image{
 	
-	position: relative;
-	top: 15px;
-	
-	border-radius: 25px;
+	float: right;
+	border-radius: 30px;
 
 
 }
@@ -198,4 +135,43 @@ footer{
 	padding-right: 30px;
 
 	float: right;
+}
+
+img.menu{
+	display: none;
+
+}
+
+.option-list{
+
+	display: none;
+	flex-direction: column;
+
+	align-items: center;
+	background-color: #5CE1E6;
+
+	position: absolute;
+	top: 5.8em;
+	right: 0;
+
+	width: 20em;
+	height: 30em;
+}
+
+@media only screen and (max-width: 1245px) {
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+a.nav-block{
+	display: none;
+}
+
+
+
+img.menu{
+	display: block;
+	cursor: pointer;
+}
 }

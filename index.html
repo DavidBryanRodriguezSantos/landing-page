@@ -2,10 +2,30 @@
 <html>
 	
 	<head>
-		<meta charset="utf-8">
 		<title>T’ikraq - Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles/home-page.css">
 	</head>
+
+	<script>
+		function toggleOptionList(){
+		
+			var element = document.getElementById("option-list");
+
+			if (element.style.display.length == 0){
+				element.style.display = "block";
+				return
+			}
+			
+			if (element.style.display == "none"){
+				element.style.display = "block";
+			}else{
+				element.style.display = "none";
+			}
+
+		}
+	</script>
 
 	<body>
 
@@ -13,13 +33,23 @@
 		<nav>
 			<img src="assets/logo.png" height="70" width="80" />
 
-			<a href="register/index.html" class="register-button">Regístrate</a>
-			<a href="contact/index.html" class="contact-button">Contáctanos</a>
-			<a href="translate/index.html" class="translate-button">Traductor</a>
-			<a href="subscription/index.html" class="suscription-button">Suscripciones</a>
-			<a href="learn/index.html" class="learn-button">Aprender</a>
-			<a href="about-me/index.html" class="about-me-button">Sobre nosotros</a>
-
+			<a class = "nav-block" href="register/index.html" class="register-button">Regístrate</a>
+			<a class = "nav-block" href="contact/index.html" class="contact-button">Contáctanos</a>
+			<a class = "nav-block" href="translate/index.html" class="translate-button">Traductor</a>
+			<a class = "nav-block" href="subscription/index.html" class="suscription-button">Suscripciones</a>
+			<a class = "nav-block" href="learn/index.html" class="learn-button">Aprender</a>
+			<a class = "nav-block"href="about-me/index.html" class="about-me-button">Sobre nosotros</a>
+			<img class = "menu"  onclick = "toggleOptionList()" src = "assets/lesson/menu.png" height="70" width= "85" /> 
+			
+			<div class = "option-list" id = "option-list">
+				<p class = "nav-block" href="register/index.html" class="register-button">Regístrate</a>
+				<p class = "nav-block" href="contact/index.html" class="contact-button">Contáctanos</a>
+				<p class = "nav-block" href="translate/index.html" class="translate-button">Traductor</a>
+				<p class = "nav-block" href="subscription/index.html" class="suscription-button">Suscripciones</a>
+				<p class = "nav-block" href="learn/index.html" class="learn-button">Aprender</a>
+				<p class = "nav-block" href="about-me/index.html" class="about-me-button">Sobre nosotros</a>
+				
+			</div>
 		</nav>
 
 		<section>
