@@ -20,7 +20,7 @@ h1{
 }
 
 p{
-	width: 15vw;
+	width: 14em;
 	height: 24px;
 
 	margin: 10px auto;
@@ -69,6 +69,6 @@ h1.submit-button{
 	background-color: #F5A940;
 	border: 12px solid #F5A940;
 	border-radius: 30px;
+	cursor: pointer;
 }
 
-h1.
